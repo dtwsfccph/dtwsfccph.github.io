@@ -126,7 +126,7 @@ function getRelatedAssets(asset, xml) {
 
 function getCategoryID(asset) {
   var catId = asset.getAttribute("category-id");
-  return catId.toLowerCase();
+  return catId;
 }
 
 function getPDAssets(pageIDs, xml, fileName, isDownloadImagesChecked) {
